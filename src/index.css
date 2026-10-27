@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Leaflet district label styling */
+.district-label-tooltip {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #475569 !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  text-shadow: 0 0 3px #ffffff, 0 0 5px #ffffff !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+.district-label-tooltip::before {
+  display: none !important;
+}
+
+/* Leaflet cluster custom icon styling */
+.custom-cluster-icon {
+  background: transparent;
+  border: none;
+}
+
+/* School marker icon wrapper */
+.school-marker-div-icon {
+  background: transparent;
+  border: none;
+}
+
+/* Smooth popup styling */
+.leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+  border: 1px solid #e2e8f0 !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-content {
+  margin: 12px !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff !important;
+}
+
+/* Leaflet attribution styling */
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(4px);
+  padding: 2px 6px !important;
+  border-radius: 4px 0 0 0 !important;
+  font-size: 10px !important;
+  color: #64748b !important;
+}
+
+.leaflet-control-attribution a {
+  color: #2563eb !important;
+}
